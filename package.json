@@ -1,0 +1,24 @@
+{
+  "name": "@benjaminsinger/sds-tailwind-config",
+  "version": "1.0.0",
+  "description": "Design System base settings for Tailwind CSS configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminsinger/sds-tailwind-config.git"
+  },
+  "keywords": [
+    "tailwind",
+    "design",
+    "system"
+  ],
+  "author": "Benjamin Singer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminsinger/sds-tailwind-config/issues"
+  },
+  "homepage": "https://github.com/benjaminsinger/sds-tailwind-config#readme"
+}
