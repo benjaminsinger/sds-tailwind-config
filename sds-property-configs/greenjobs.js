@@ -1,4 +1,4 @@
-module.exports = {
+const greenjobs = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     colors: {
@@ -19,3 +19,5 @@ module.exports = {
     },
   },
 };
+
+module.exports = greenjobs;

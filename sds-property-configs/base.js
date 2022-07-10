@@ -1,4 +1,4 @@
-module.exports = {
+const base = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     colors: {
@@ -27,3 +27,5 @@ module.exports = {
     },
   },
 };
+
+module.exports = base;

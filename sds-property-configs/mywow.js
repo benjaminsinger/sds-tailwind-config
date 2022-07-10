@@ -1,4 +1,4 @@
-module.exports = {
+const mywow = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     colors: {
@@ -15,3 +15,5 @@ module.exports = {
     },
   },
 };
+
+module.exports = mywow;
