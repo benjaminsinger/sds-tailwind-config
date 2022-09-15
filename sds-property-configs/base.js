@@ -1,5 +1,6 @@
+const type = require('../sds-typography-configs/type-base.js');
+
 const base = {
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     colors: {
       blue: "#1fb6ff",
@@ -26,6 +27,7 @@ const base = {
       },
     },
   },
+  plugins: type,
 };
 
 module.exports = base;
