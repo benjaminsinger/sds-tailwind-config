@@ -1,4 +1,4 @@
-const type = require('../sds-typography-configs/type-base.js');
+const typeBase = require('../sds-typography-configs/type-base.js');
 
 const base = {
   theme: {
@@ -27,7 +27,7 @@ const base = {
       },
     },
   },
-  plugins: type,
+  plugins: [typeBase],
 };
 
 module.exports = base;

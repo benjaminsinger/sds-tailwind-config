@@ -1,4 +1,4 @@
-import {addBase, config} from 'tailwindcss';
+const plugin = require('tailwindcss/plugin');
 
 const type = 
     plugin(function({ addBase, config }) {
